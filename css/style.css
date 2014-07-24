@@ -1,0 +1,24 @@
+
+body {
+  margin: 0;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: -webkit-linear-gradient(left top, #FFE94F, #FF9040);
+    -webkit-perspective: 33;
+    -webkit-perspective-origin: 40% 20%;
+}
+
+.file-item {
+    position: absolute;
+    background: white;
+    width: 400px;
+    height: 500px;
+    right: 200px;
+    top: 80px;
+    box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.37);
+    -webkit-transition-duration: 400ms;
+}

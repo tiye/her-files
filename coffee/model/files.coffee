@@ -1,6 +1,6 @@
 
-oop = require './utils/oop'
-Dispatcher = require './utils/dispatcher'
+oop = require '../utils/oop'
+Dispatcher = require '../utils/dispatcher'
 
 files = []
 
@@ -11,3 +11,6 @@ oop.mixin model,
   get: ->
     files
 
+  init: ->
+    for i in [1..20]
+      files.push text: i, id: i
